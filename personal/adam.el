@@ -1,0 +1,7 @@
+(setq prelude-whitespace nil)
+(setq prelude-clean-whitespace-on-save nil)
+(setq prelude-guru nil)
+(elscreen-start)
+(global-set-key (kbd "C-c h") 'helm-mini)
+(setq require-final-newline t)
+(global-set-key "\C-xg" 'goto-line)
